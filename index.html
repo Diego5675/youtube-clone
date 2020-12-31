@@ -4,7 +4,9 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./assets/icons/youtube.svg" type="image/x-icon">
    <title>Youtube</title>
+   <script src="https://kit.fontawesome.com/ebf8135dc3.js" crossorigin="anonymous"></script>
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./styles/style.css">
@@ -12,13 +14,97 @@
 
 <body>
    <!-- Page header -->
-   <header></header>
+   <header class="header">
+      <figure class="header__logo-container">
+         <img src="./assets/images/logo.jpg" alt="Youtube logo" class="header__logo-img">
+      </figure>
+      <nav class="header__navigation">
+         <span class="header__search-icon"></span>
+         <figure class="header__user-container">
+            <img
+               src="https://static.platzi.com/media/avatars/avatars/diegopascual56_2c4b795e-b8fa-43ef-9503-e119b83a209c.jpg"
+               alt="User image" class="header__user-img">
+         </figure>
+      </nav>
+   </header>
 
    <!-- Navigation -->
-   <aside></aside>
+   <aside class="navigation">
+      <div class="navigation__icon">
+         <i class="fas fa-home navigation__icon-img"></i>
+         <p class="navigation__icon-text">Home</p>
+      </div>
+      <div class="navigation__icon">
+         <i class="fas fa-fire navigation__icon-img"></i>
+         <p class="navigation__icon-text">Trending</p>
+      </div>
+      <div class="navigation__icon">
+         <i class="fas fa-photo-video navigation__icon-img"></i>
+         <p class="navigation__icon-text">Library</p>
+      </div>
+   </aside>
 
    <!-- Main -->
-   <main></main>
+   <main class="main">
+      <article class="video">
+         <!-- Cover -->
+         <figure class="video__cover-container">
+            <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+         </figure>
+
+         <!-- Video information -->
+         <section class="video__info">
+            <figure class="video__channel-container">
+               <img
+                  src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                  alt="Channel name" class="video__channel-img">
+            </figure>
+            <div class="video__description">
+               <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+               <p class="video__text">
+                  <span>El Pulso De La República</span>
+                  <span>7481 vistas</span>
+                  <span>hace 8 horas</span>
+               </p>
+            </div>
+            <i class="fas fa-ellipsis-v video__options"></i>
+         </section>
+      </article>
+
+
+
+
+
+
+
+
+
+
+      <article class="video">
+         <!-- Cover -->
+         <figure class="video__cover-container">
+            <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+         </figure>
+
+         <!-- Video information -->
+         <section class="video__info">
+            <figure class="video__channel-container">
+               <img
+                  src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                  alt="Channel name" class="video__channel-img">
+            </figure>
+            <div class="video__description">
+               <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+               <p class="video__text">
+                  <span>El Pulso De La República</span>
+                  <span>7481 vistas</span>
+                  <span>hace 8 horas</span>
+               </p>
+            </div>
+            <i class="fas fa-ellipsis-v video__options"></i>
+         </section>
+      </article>
+   </main>
 </body>
 
 </html>
