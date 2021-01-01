@@ -1,0 +1,6 @@
+.main__videos-container {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}

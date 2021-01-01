@@ -1,0 +1,46 @@
+body {
+  grid-template-columns: 75px 1fr;
+  grid-template-areas:
+    "header header"
+    "navigation main";
+}
+
+/* -------------------- Navigation -------------------- */
+.navigation {
+  position: fixed;
+  bottom: initial;
+  left: initial;
+  right: initial;
+  z-index: initial;
+  width: 75px;
+  margin-top: 50px;
+  padding: 0;
+  border-top: none;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.navigation__icon {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.navigation__icon:hover {
+  background-color: #f2f2f2;
+}
+
+.navigation__icon-text {
+  font-size: 1rem;
+}
+
+/* -------------------- Main -------------------- */
+.main {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.main__videos-container {
+  margin-top: 60px;
+  row-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}

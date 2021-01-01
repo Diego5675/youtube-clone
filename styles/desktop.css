@@ -1,0 +1,40 @@
+body {
+  grid-template-columns: 240px 1fr;
+}
+
+/* -------------------- Header -------------------- */
+.header {
+  box-shadow: none;
+}
+
+/* -------------------- Navigation -------------------- */
+.navigation {
+  width: 240px;
+  padding: 12px 0;
+  align-items: flex-start;
+}
+
+.navigation__icon {
+  grid-auto-flow: column;
+  grid-template-columns: 30px 1fr;
+  justify-items: start;
+  align-items: center;
+  column-gap: 20px;
+  padding: 10px 25px;
+}
+
+.navigation__icon:first-of-type {
+  background-color: #e5e5e5;
+}
+
+.navigation__icon-img {
+  font-size: 20px;
+}
+
+.navigation__icon-text {
+  font-size: 1.4rem;
+}
+
+.navigation__icon:first-of-type .navigation__icon-text {
+  color: black;
+}

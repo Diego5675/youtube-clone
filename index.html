@@ -9,7 +9,14 @@
    <script src="https://kit.fontawesome.com/ebf8135dc3.js" crossorigin="anonymous"></script>
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+   <!-- Styles -->
    <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylesheet" href="./styles/break-588.css" media="screen and (min-width: 588px)">
+   <link rel="stylesheet" href="./styles/tablet.css" media="screen and (min-width: 874px)">
+   <link rel="stylesheet" href="./styles/break-1128.css" media="screen and (min-width: 1128px)">
+   <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 1313px)">
+   <link rel="stylesheet" href="./styles/break-1800.css" media="screen and (min-width: 1800px)">
 </head>
 
 <body>
@@ -39,6 +46,10 @@
          <p class="navigation__icon-text">Trending</p>
       </div>
       <div class="navigation__icon">
+         <i class="fab fa-youtube navigation__icon-img"></i>
+         <p class="navigation__icon-text">Subscriptions</p>
+      </div>
+      <div class="navigation__icon">
          <i class="fas fa-photo-video navigation__icon-img"></i>
          <p class="navigation__icon-text">Library</p>
       </div>
@@ -46,105 +57,238 @@
 
    <!-- Main -->
    <main class="main">
-      <article class="video">
-         <!-- Cover -->
-         <figure class="video__cover-container">
-            <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
-         </figure>
+      <!-- Advertisement -->
+      <section class="main__advertisement">
+         Anuncios
+      </section>
 
-         <!-- Video information -->
-         <section class="video__info">
-            <figure class="video__channel-container">
-               <img
-                  src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
-                  alt="Channel name" class="video__channel-img">
+      <!-- Videos container -->
+      <section class="main__videos-container">
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
             </figure>
-            <div class="video__description">
-               <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
-               <p class="video__text">
-                  <span>El Pulso De La República</span>
-                  <span>7481 vistas</span>
-                  <span>hace 8 horas</span>
-               </p>
-            </div>
-            <i class="fas fa-ellipsis-v video__options"></i>
-         </section>
-      </article>
 
-      <article class="video">
-         <!-- Cover -->
-         <figure class="video__cover-container">
-            <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
-         </figure>
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
 
-         <!-- Video information -->
-         <section class="video__info">
-            <figure class="video__channel-container">
-               <img
-                  src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
-                  alt="Channel name" class="video__channel-img">
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
             </figure>
-            <div class="video__description">
-               <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
-               <p class="video__text">
-                  <span>El Pulso De La República</span>
-                  <span>7481 vistas</span>
-                  <span>hace 8 horas</span>
-               </p>
-            </div>
-            <i class="fas fa-ellipsis-v video__options"></i>
-         </section>
-      </article>
 
-      <article class="video">
-         <!-- Cover -->
-         <figure class="video__cover-container">
-            <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
-         </figure>
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
 
-         <!-- Video information -->
-         <section class="video__info">
-            <figure class="video__channel-container">
-               <img
-                  src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
-                  alt="Channel name" class="video__channel-img">
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
             </figure>
-            <div class="video__description">
-               <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
-               <p class="video__text">
-                  <span>El Pulso De La República</span>
-                  <span>7481 vistas</span>
-                  <span>hace 8 horas</span>
-               </p>
-            </div>
-            <i class="fas fa-ellipsis-v video__options"></i>
-         </section>
-      </article>
 
-      <article class="video">
-         <!-- Cover -->
-         <figure class="video__cover-container">
-            <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
-         </figure>
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
 
-         <!-- Video information -->
-         <section class="video__info">
-            <figure class="video__channel-container">
-               <img
-                  src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
-                  alt="Channel name" class="video__channel-img">
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
             </figure>
-            <div class="video__description">
-               <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
-               <p class="video__text">
-                  <span>El Pulso De La República</span>
-                  <span>7481 vistas</span>
-                  <span>hace 8 horas</span>
-               </p>
-            </div>
-            <i class="fas fa-ellipsis-v video__options"></i>
-         </section>
-      </article>
+
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
+
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+            </figure>
+
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
+
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+            </figure>
+
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
+
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+            </figure>
+
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
+
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+            </figure>
+
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
+
+         <article class="video">
+            <!-- Cover -->
+            <figure class="video__cover-container">
+               <img src="./assets/images/cover.jpg" alt="Video cover" class="video__cover-img">
+            </figure>
+
+            <!-- Video information -->
+            <section class="video__info">
+               <figure class="video__channel-container">
+                  <img
+                     src="https://yt3.ggpht.com/ytc/AAUvwniZ8GCnuZYBQHf6YRQqCgE7Iojx5nrY5hZ4OCpR=s48-c-k-c0xffffffff-no-rj-mo"
+                     alt="Channel name" class="video__channel-img">
+               </figure>
+               <div class="video__description">
+                  <h3 class="video__title">ENCERRADOS PERO INFORMADOS RESUMEN 2020 PARTE 5 - EL ...</h3>
+                  <p class="video__text">
+                     <span>El Pulso De La República</span>
+                     <span>7481 vistas</span>
+                     <span>hace 8 horas</span>
+                  </p>
+               </div>
+               <i class="fas fa-ellipsis-v video__options"></i>
+            </section>
+         </article>
+      </section>
    </main>
 </body>
 
